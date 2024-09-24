@@ -1,1 +1,3 @@
-# NLP
+# NLP Email Classification using LSTM, GRU and RNN models
+I employed various text preprocessing techniques, such as removing HTML tags, URLs, stop words, and emojis.
+Results: To enhance the results, I used upsampling to address the class imbalance and prevent bias towards the majority class. I tested RNN, GRU, and LSTM models to determine the best one. The LSTM model achieved the highest accuracy of 0.95, which was anticipated due to its complex architecture. While LSTM generally performs better, GRU can be a suitable alternative when computational resources are limited. Additionally, I identified words with a high likelihood of being classified as spam.
